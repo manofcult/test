@@ -20,8 +20,8 @@ def _(browser):
 
 Multiple names for the steps:
 
-@given("I have an article")
-@given("there is an article")
+@given("Forceaction2")
+@given("nopenopenope")
 def _(author):
     return create_test_article(author=author)
 
